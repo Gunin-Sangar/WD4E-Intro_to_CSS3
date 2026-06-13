@@ -10,7 +10,14 @@ header {
 
 nav {
     background-color: #97cdad;
+    display: inline-block;
+    width: 80%;
 }
+
+nav img {
+    width: 10%;
+}
+
 
 main {
     background-color: #ffffff;
@@ -21,10 +28,10 @@ footer {
     background-color: rgb(245, 245, 155);
 }
 
-li {
+/* li {
     display: inline-block;
     width: 200px;
-}
+} */
 
 h1 {
     text-align: center;
@@ -34,4 +41,23 @@ h1 {
 
 p {
     line-height: 1.6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 50%;
+}
+
+.flex {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
